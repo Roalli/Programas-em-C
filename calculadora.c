@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 /*Prototipos das funções*/ 
-double SOMA(double num1, double soma);
-double SUBTRACAO( double num1, double subtracao);
-double MULTIPLICAR(double num1, double multiplica);
+double SOMA(double num1, double soma);/*função responsavel para fazer a soma de duas variaveis*/
+double SUBTRACAO( double num1, double subtracao);/*Função responsavel para fazer a subtração entre duas variaveis*/
+double MULTIPLICAR(double num1, double multiplica);/*Função responsavel para fazer a multiplicação entre duas variaveis*/
 double DIVISAO(double num1, double dividir);
 double POTENCIA(double num1, int potencia);
 float FATORIAL(int num);
