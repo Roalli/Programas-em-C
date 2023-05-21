@@ -4,8 +4,8 @@
 double SOMA(double num1, double soma);/*função responsavel para fazer a soma de duas variaveis*/
 double SUBTRACAO( double num1, double subtracao);/*Função responsavel para fazer a subtração entre duas variaveis*/
 double MULTIPLICAR(double num1, double multiplica);/*Função responsavel para fazer a multiplicação entre duas variaveis*/
-double DIVISAO(double num1, double dividir);
-double POTENCIA(double num1, int potencia);
+double DIVISAO(double num1, double dividir);/*Funçao responsavel para fazer a divisão entre duas variaveis*/
+double POTENCIA(double num1, int potencia);/*Função responsavel para fazer a potencia entre duas variaveis*/
 float FATORIAL(int num);
 
 /*Função main*/ 
