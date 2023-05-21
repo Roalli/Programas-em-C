@@ -6,14 +6,15 @@ double SUBTRACAO( double num1, double subtracao);/*Função responsavel para faz
 double MULTIPLICAR(double num1, double multiplica);/*Função responsavel para fazer a multiplicação entre duas variaveis*/
 double DIVISAO(double num1, double dividir);/*Funçao responsavel para fazer a divisão entre duas variaveis*/
 double POTENCIA(double num1, int potencia);/*Função responsavel para fazer a potencia entre duas variaveis*/
-float FATORIAL(int num);
+float FATORIAL(int num);/*Função responsavel para apresentar o valor em fatorial da variavel*/
 
 /*Função main*/ 
 int main(void)
 {
     /*as variavies*/ 
-    int opcao = 0 ;
-    double num1 = 0;
+    int opcao = 0 ;/*onde que ira armazenar a opç*/
+    double num1 = 0;/*onde que ira ficar armazenado o numero para ser usado
+                    em uma das funções presente nesse programa*/
 
     /*Laço de controle para manter na escolha do programa*/ 
     while(opcao != 7){
