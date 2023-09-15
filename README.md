@@ -18,4 +18,4 @@ Programa em C que calcula e mostra a serie fibonacci que o usuario digitar. Perg
 
 ## Conta Bancaria
 
-Programa em C++ que simula contas bancarias, podendo criar conta do tipo corrente ou poupança e transferir valor entre elas.[Codigo](/Conta%20Bancaria)
+Programa em C++ que simula contas bancarias, podendo criar conta do tipo corrente ou poupança e transferir valor entre elas. [Ver mais](/Conta%20Bancaria)
