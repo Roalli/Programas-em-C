@@ -10,5 +10,10 @@ Programa em C++ similar ao programa anterior mas com a função de conta poupan�
 
 ## Conta Bancaria V3
 
+Programa em C++ com melhorias do anterior, com possibilidade de criar mais de uma conta e escolher se sera do tipo poupança ou corrente. [Codigo](/conta4.cpp)
+
 
 ## Conta Bancaria V4
+
+Possui a escolha de quantas contas sera criada e o tipo se sera poupança ou corrente, e um menu com opções para creditar, debitar, ou fazer transferencia na conta escolhida. [Codigo](/conta5.cpp)
+
