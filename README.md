@@ -5,7 +5,7 @@ Nele se encontra o codigo fonte e o arquivo já compilado.
 ## Indice
 
 * [Calculadora](https://github.com/Roalli/Programas-em-C#calculadora)
-* [Baskara](https://github.com/Roalli/Programas-emC#baskara)
+* [Baskara](https://github.com/Roalli/Programas-em-C#baskara)
 * [Fibonacci](https://github.com/Roalli/Programas-em-C#fibonacci)
 * [Conta Bancaria](https://github.com/Roalli/Programas-em-C#conta-bancaria)
 
