@@ -5,12 +5,17 @@ Nele se encontra o codigo fonte e o arquivo já compilado.
 ## Indice
 
 * [Calculadora](https://github.com/Roalli/Programas-em-C#calculadora)
+* [Baskara](https://github.com/Roalli/Programas-emC#baskara)
 * [Fibonacci](https://github.com/Roalli/Programas-em-C#fibonacci)
 * [Conta Bancaria](https://github.com/Roalli/Programas-em-C#conta-bancaria)
 
 ## Calculadora
 
 Programa em C de uma calculadora que calcula em 6 tipos de operações(adição, subtração, multiplicação, divisão, potencia e fatorial) conforme o usuario informa o tipo de operação. [Codigo](/calculadora.c)
+
+## Baskara
+
+Programa em C que soluciona uma equação de segundo grau através pela baskara. Conforme o usuario inserir os dados da equação. 
 
 ## Fibonacci
 
