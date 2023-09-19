@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string.h>
 #include <iomanip>
+#include <locale.h>
 
 using namespace std;
 
@@ -301,6 +302,8 @@ void menu (int tamanho, conta ** elemento){
 
     int main(){
 
+
+        setlocale(LC_ALL, "Portuguese");//Para todos os caracteres funcionarem no windows
         int tamanho = 0; // variavel para o tamanho do vetor da conta. 
 
         //Variaveis para atribuir as informações para cada conta em seu construtor.
