@@ -327,7 +327,8 @@ void menu (int tamanho, conta ** elemento){
 
           cout << "------Conta " << cont+1 << "------"  << endl << endl;
           cout << "Digite o nome: ";
-          cin >> nome_temporario;
+          cin.ignore();
+          getline( cin, nome_temporario );
           cout << endl << "Digite o numero da conta: ";
           cin >> numero_temporario;
           cout << endl << "Digite o valor: ";
