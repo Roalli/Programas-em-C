@@ -204,15 +204,15 @@ void menu (int tamanho, conta ** elemento){
 
                 numconta-= 1;
 
-                cout << "A conta escolhida foi da ";
-                elemento[numconta]->mostranome();//mostra o nome da conta escolhida 
+                cout << "\n\nA conta escolhida foi de ";
+                elemento[numconta]->mostranome() << "\n\n\n";//mostra o nome da conta escolhida 
 
                 opcao2 = 0;//zera a variavel por estar num laço
 
                 while(opcao2 != 5){//dentro das opção da conta 
                 
                 cout << "\n\n\n--------Opções da conta--------\n\n";
-                cout << "1 - Mostrar conta\n2 - Creditar\n3 - Debitar\n4 - Transferencia\n5 - Voltar\n";
+                cout << "1 - Mostrar conta\n2 - Creditar\n3 - Debitar\n4 - Transferencia\n5 - Voltar\n\n";
                 cout << "Digite a opção:";
                 cin >> opcao2;
 
@@ -331,7 +331,7 @@ void menu (int tamanho, conta ** elemento){
           cout << "------Conta " << cont+1 << "------"  << endl << endl;
           cout << "Digite o nome: ";
           cin.ignore();
-          getline( cin, nome_temporario );
+          getline( cin, nome_temporario );//usado para ser capaz de armazenar nomes com espaços na string
           cout << endl << "Digite o numero da conta: ";
           cin >> numero_temporario;
           cout << endl << "Digite o valor: ";
