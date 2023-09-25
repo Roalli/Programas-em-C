@@ -122,19 +122,14 @@ void atualizaConta(int mes){
   
 void listar_contas( int tamanho, conta ** contas){
       cout << "------Listando contas correntes------" << endl;
-      int i = 0;
       
       //Teste para conta corrente.
       for( int cont = 0; cont < tamanho; cont ++){
-
-        
-        
+  
         if(dynamic_cast <conta_corrente *>(contas[cont]) !=NULL ){//caso apresentar diferente que nulo
                                                                   //para conta corrente.
-
-          i ++;
-
-          cout << "A conta " << i << endl;
+            
+          cout << "A conta " << cont+1 << endl;
           contas[cont]->imprimir();
           cout << endl;
           
@@ -145,17 +140,13 @@ void listar_contas( int tamanho, conta ** contas){
 
       cout << "------Listando contas poupança------" << endl;
 
-       i = 0;
-      
        //Teste para conta poupança.
       for( int cont = 0; cont < tamanho; cont ++){
 
         
       if(dynamic_cast <conta_poupanca *> (contas[cont]) !=NULL){
 
-          i ++;
-
-          cout << "A conta " << i << endl;
+          cout << "A conta " << cont+1 << endl;
           contas[cont]->imprimir();
           cout << endl;
       }
@@ -214,7 +205,7 @@ void menu (int tamanho, conta ** elemento){
                 cout << "\n\n\n--------Opções da conta--------\n\n";
                 cout << "1 - Mostrar conta\n2 - Creditar\n3 - Debitar\n4 - Transferencia\n5 - Voltar\n\n";
                 cout << "Digite a opção:";
-                cin >> opcao2;
+                cin >> opcao2;q
 
                 switch (opcao2){//nas escolhas das opções da conta 
                     case 1://mostrar conta 
