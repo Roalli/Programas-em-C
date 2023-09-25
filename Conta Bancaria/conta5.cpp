@@ -10,7 +10,7 @@ class conta {
 
     //As variaveis ficaram em protected para função transferir poder usar as variaveis
 protected:
-
+//as variaveis da classe conta
     string nome;
     int numero;
     float saldo;
@@ -43,10 +43,10 @@ protected:
     
     }
 
-    void mostranome(){
+    void mostranome(){//ascrecentado para utilizar o nome que possui na classe
         cout << this->nome;
     }
-
+//função
 friend  void transferir( class conta * contaOrigem, float valor, class conta * contaDestino);
 
 virtual void atualizaConta( int mes ) = 0;
