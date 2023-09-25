@@ -8,8 +8,7 @@ using namespace std;
 //Classe para conta 
 class conta {
 
-    //As variaveis ficaram em public para função transferir 
-    //public:
+    //As variaveis ficaram em protected para função transferir poder usar as variaveis
 protected:
 
     string nome;
